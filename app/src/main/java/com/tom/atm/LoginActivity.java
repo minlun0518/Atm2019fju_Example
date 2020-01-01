@@ -25,6 +25,7 @@ public class LoginActivity extends AppCompatActivity {
             finish();
         } else {
             new AlertDialog.Builder(this)
+                    .setIcon(R.drawable.cry)
                     .setTitle("登入訊息")
                     .setMessage("登入失敗")
                     .setPositiveButton("OK", null)
