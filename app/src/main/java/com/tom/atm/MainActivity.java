@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 card.setValue(random.nextInt(52));
             }
         });
+
         if (!logon) {
             Intent login = new Intent(this, LoginActivity.class);
 //            startActivity(login);
